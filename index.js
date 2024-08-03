@@ -2,7 +2,7 @@ const { Server } = require("socket.io");
 
 const io = new Server({
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://real-time-chat-app-backend-a5up.onrender.com',
     methods: ['GET', 'POST'],
   },
 });
