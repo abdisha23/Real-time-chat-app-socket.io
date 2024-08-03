@@ -2,7 +2,7 @@ const { Server } = require("socket.io");
 
 const io = new Server({
   cors: {
-    origin: 'https://real-time-chat-app-backend-a5up.onrender.com',
+    origin: 'https://real-time-chat-app-frontend-5oxa.onrender.com',
     methods: ['GET', 'POST'],
   },
 });
